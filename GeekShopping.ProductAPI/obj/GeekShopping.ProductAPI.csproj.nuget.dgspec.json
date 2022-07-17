@@ -76,7 +76,7 @@
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.1.5, )"
+              "version": "[6.3.2, )"
             }
           },
           "imports": [

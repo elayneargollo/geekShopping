@@ -1,4 +1,5 @@
-﻿using GeekShopping.ProductAPI.Model.Base;
+﻿using System.Globalization;
+using GeekShopping.ProductAPI.Model.Base;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -28,5 +29,14 @@ namespace GeekShopping.ProductAPI.Model
         [Column("image_url")]
         [StringLength(300)]
         public string ImageUrl { get; set; }
+
+        public Product(string name, decimal price, string description, string category_name, string image_url)
+        {
+            this.Name = name;
+            this.Price = price;
+            this.Description = description;
+            this.CategoryName = category_name;
+            this.ImageUrl = image_url;
+        }
     }
 }

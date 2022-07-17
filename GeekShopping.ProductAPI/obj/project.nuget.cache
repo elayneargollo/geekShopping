@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+So694vjGg26QCDfZViKTPpdiLAHN1jjAqsRCbPwJhrWpo3fnJNJcmFG5zvBKbRk2pN9jxgrL44qtYX/oXFZJQ==",
+  "dgSpecHash": "FuxY2qpCkMCy6ERFM9pGh0zb1ZWAU61H/VJOW3gtAkihfYlTWyJ3PvA0WDtPII/NxhmwH+OiBQ2lnwxMvPJOng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,7 @@
     "C:\\Users\\Elayne\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.1.5\\swashbuckle.aspnetcore.annotations.6.1.5.nupkg.sha512",
     "C:\\Users\\Elayne\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.5\\swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
     "C:\\Users\\Elayne\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.5\\swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
-    "C:\\Users\\Elayne\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.5\\swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512",
+    "C:\\Users\\Elayne\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.2\\swashbuckle.aspnetcore.swaggerui.6.3.2.nupkg.sha512",
     "C:\\Users\\Elayne\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Elayne\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.6.21352.12\\system.collections.immutable.6.0.0-preview.6.21352.12.nupkg.sha512",
     "C:\\Users\\Elayne\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-preview.6.21352.12\\system.diagnostics.diagnosticsource.6.0.0-preview.6.21352.12.nupkg.sha512",

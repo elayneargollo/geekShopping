@@ -1,5 +1,10 @@
-﻿using GeekShopping.ProductAPI.Model.Context;
+﻿using AutoMapper;
+using GeekShopping.ProductAPI.Model;
+using GeekShopping.ProductAPI.Model.Context;
+using GeekShopping.ProductAPI.Model.Dto;
+using GeekShopping.ProductAPI.Model.ViewModel;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace GeekShopping.ProductAPI
 {
@@ -22,8 +27,26 @@ namespace GeekShopping.ProductAPI
 
                 services.AddDbContext<MySqlContext>(options =>
                         options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), 
-                                            new MySqlServerVersion(
-                                                new Version(8,0,5))));
+                                        new MySqlServerVersion(
+                                            new Version(8,0,5))));
+                
+                services.AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.ProductAPI", Version = "v1" });
+                });
+
+                var config = new AutoMapper.MapperConfiguration(cfg =>
+                {
+                    cfg.CreateMap<Product, ProductViewModel>();
+                    cfg.CreateMap<ProductDto, Product>();
+                });
+    
+                IMapper mapper = config.CreateMapper();
+                services.AddSingleton(mapper);
+
+                services.AddScoped<IProductRepository, ProductRepository>();
+                services.AddScoped<IProductService, ProductService>();
+    
             }
 
             public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,21 +54,12 @@ namespace GeekShopping.ProductAPI
                 if (env.IsDevelopment())
                 {
                     app.UseDeveloperExceptionPage();
+                    app.UseSwagger();
+                    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GeekShopping.ProductAPI v1"));
                 }
 
                 app.UseHttpsRedirection();
                 app.UseRouting();
-
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API REST with ASP NET CORE 6.0");
-                    c.RoutePrefix = "swagger";
-                });
-
-                app.UseSwagger(c =>
-                {
-                    c.SerializeAsV2 = true;
-                });
 
                 app.UseCors(x => x
                     .AllowAnyOrigin()
