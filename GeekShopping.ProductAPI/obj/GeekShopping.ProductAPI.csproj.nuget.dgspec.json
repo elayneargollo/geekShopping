@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {}
+    "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\GeekShopping.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {
+    "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\GeekShopping.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\GeekShopping.ProductAPI.csproj",
         "projectName": "GeekShopping.ProductAPI",
-        "projectPath": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "projectPath": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\GeekShopping.ProductAPI.csproj",
         "packagesPath": "C:\\Users\\Elayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductAPI\\obj\\",
+        "outputPath": "C:\\Users\\Elayne\\Documents\\Github\\geekShopping\\GeekShopping.ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,37 +46,37 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[10.1.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[8.1.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.0-preview.6.21355.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0-preview.6.22329.4, )"
+              "version": "[6.0.0-preview.6.21352.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0-preview.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.2, )"
+              "version": "[6.1.5, )"
             },
             "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
-              "version": "[6.3.2, )"
+              "version": "[6.1.5, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.3.2, )"
+              "version": "[6.1.5, )"
             }
           },
           "imports": [

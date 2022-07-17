@@ -18,11 +18,10 @@ namespace GeekShopping.ProductAPI
             {
                 services.AddCors();
                 services.AddControllers();
-
-                string stringConnection = Configuration["MySQLConnection:MySQLConnection"];
+                services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
 
                 services.AddDbContext<MySqlContext>(options =>
-                            options.UseMySql(stringConnection, 
+                        options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), 
                                             new MySqlServerVersion(
                                                 new Version(8,0,5))));
             }
@@ -39,7 +38,7 @@ namespace GeekShopping.ProductAPI
 
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API REST with ASP NET CORE 3.1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API REST with ASP NET CORE 6.0");
                     c.RoutePrefix = "swagger";
                 });
 

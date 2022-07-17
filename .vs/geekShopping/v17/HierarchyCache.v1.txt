@@ -1,0 +1,286 @@
+﻿++Solução 'geekShopping' ‎(2 de 2 projetos)
+i:{00000000-0000-0000-0000-000000000000}:geekShopping.sln
+++Service
+i:{00000000-0000-0000-0000-000000000000}:Service
+++GeekShopping.ProductAPI
+++Connected Services 
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:>414
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:>671
+++Dependências
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:>412
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:>670
+++Properties
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\properties\
+++Controllers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\controllers\
+++Model
+++Base
+++BaseEntity.cs
+++Context
+++MySqlContext.cs
+++appsettings.json
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\appsettings.json
+++appsettings.Development.json
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\appsettings.development.json
+++Program.cs
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\program.cs
+++WeatherForecast.cs
+++Nenhuma dependência de serviço descoberta
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:>417
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:>672
+++Analisadores
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:analisadores
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:analisadores
+++Estruturas
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:estruturas
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:estruturas
+++Pacotes
+++launchSettings.json
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\properties\launchsettings.json
+++WeatherForecastController.cs
+++Microsoft.AspNetCore.Analyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+++Microsoft.Extensions.Logging.Generators
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\microsoft.aspnetcore.app
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\users\elayne\documents\github\geekshopping\webapplication2\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\microsoft.netcore.app
+i:{b30b9778-4d31-4353-b36f-44e12c9a14ed}:c:\users\elayne\documents\github\geekshopping\webapplication2\microsoft.netcore.app
+++AutoMapper (11.0.1)
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
+++Microsoft.EntityFrameworkCore.Tools (7.0.0-preview.6.22329.4)
+++Pomelo.EntityFrameworkCore.MySql (6.0.1)
+++Swashbuckle.AspNetCore (6.3.2)
+++Swashbuckle.AspNetCore.Annotations (6.3.2)
+++Swashbuckle.AspNetCore.SwaggerUI (6.3.2)
+++Frontend
+i:{00000000-0000-0000-0000-000000000000}:Frontend
+++GeekShopping.Web
+i:{adc61351-b7c2-4103-9622-b1e09b45b537}:GeekShopping.Web
+++wwwroot
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\
+++Models
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\models\
+++Views
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\
+++css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\css\
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\js\
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\
+++favicon.ico
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\favicon.ico
+++HomeController.cs
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\controllers\homecontroller.cs
+++ErrorViewModel.cs
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\models\errorviewmodel.cs
+++Home
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\home\
+++Shared
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\shared\
+++_ViewImports.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\_viewstart.cshtml
+++site.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\css\site.css
+++site.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\js\site.js
+++bootstrap
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\
+++jquery
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\
+++jquery-validation
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation-unobtrusive\
+++Index.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\home\index.cshtml
+++Privacy.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\shared\error.cshtml
+++dist
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\dist\
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\license.txt
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++_Layout.cshtml.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\views\shared\_layout.cshtml.css
+++jquery.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{483b3d47-13ca-4e99-9b40-f6f77cc23779}:c:\users\elayne\documents\github\geekshopping\geekshopping.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Banco de Dados do SQL Server
+++Foi detectada a dependência de Banco de Dados do SQL Server
+++Plataforma de identidade Microsoft
+++Para aplicativos que autenticam usuários com a plataforma de identidade da Microsoft (Azure AD, Azure AD B2C e contas pessoais da Microsoft).
+++Startup.cs
+++Class.cs
+++Product.cs
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+++AutoMapper (6.0.1)
+++Swashbuckle.AspNetCore (6.0.1)
+++AutoMapper.Extensions.Microsoft.DependencyInjection (6.0.1)
+++Swashbuckle.AspNetCore.Annotations (6.0.1)
+++Swashbuckle.AspNetCore.SwaggerUI (6.0.1)
+++AutoMapper.Extensions.Microsoft.DependencyInjection (6.1.0)
+++Context.cs
+++Solução 'geekShopping' ‎(1 de 1 projeto)
+++WebApplication1
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Swashbuckle.AspNetCore (6.2.3)
+++WebApplication2
+i:{69c23456-ab14-4ed1-a4b3-272fd0463b31}:WebApplication2
