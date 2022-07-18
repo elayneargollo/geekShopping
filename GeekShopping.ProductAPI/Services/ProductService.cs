@@ -16,33 +16,77 @@ namespace GeekShopping.ProductAPI
         public List<Product> GetAll()
         {
             _logger.LogInformation("Method GetAll in ProductService");
-            return _productRepository.GetAll().ToList();
+
+            try
+            {
+                return _productRepository.GetAll().ToList();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                throw new ArgumentException(nameof(ProductService));
+            }
         }
 
         public Product GetById(long id)
         {
             _logger.LogInformation("Method GetById in ProductService");
-            return _productRepository.GetById(id);
+
+            try
+            {
+                return _productRepository.GetById(id);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                throw new ArgumentException(nameof(ProductService));
+            }
         }
 
         public async Task<Product> Add(Product product)
         {
             _logger.LogInformation("Method Add in ProductService");
-            return await _productRepository.Add(product);
+
+            try
+            {
+                return await _productRepository.Add(product);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                throw new ArgumentException(nameof(ProductService));
+            }
         }
 
         public string Delete(long id)
         {
             _logger.LogInformation("Method Delete in ProductService");
-            _productRepository.Delete(id);
 
-            return _productRepository.Exists(id) ? "There was an error deleting" : "Successfully deleted";
+            try
+            {
+                _productRepository.Delete(id);
+                return _productRepository.Exists(id) ? "There was an error deleting" : "Successfully deleted";
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                throw new ArgumentException(nameof(ProductService));
+            }
         }
 
         public async Task<Product> Update(Product product)
         {
             _logger.LogInformation("Method Update in ProductService");
-            return await _productRepository.Update(product);
+
+            try
+            {
+                return await _productRepository.Update(product);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                throw new ArgumentException(nameof(ProductService));
+            }
         }
     }
 }
