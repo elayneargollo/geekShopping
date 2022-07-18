@@ -1,5 +1,6 @@
 using AutoMapper;
 using GeekShopping.ProductAPI.Model;
+using GeekShopping.ProductAPI.Model.Dto;
 using GeekShopping.ProductAPI.Model.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,19 +21,45 @@ namespace GeekShopping.ProductAPI.Controllers
         }
 
         [HttpGet]
-        public List<Product> GetAll()
+        public List<ProductViewModel> GetAll()
         {
-            return new List<Product>()
-            {
-                new Product("product", 546, "description", "category", "url")
-            };
+            var products = _productService.GetAll();
+
+            List<ProductViewModel> productViewModel = new List<ProductViewModel>();
+            products.ForEach(product => productViewModel.Add(_mapper.Map<ProductViewModel>(product)));
+
+            return productViewModel;
         }
 
         [HttpGet("{id}")]
         public ProductViewModel GetById(long id)
         {
-            var product = new Product("product", 546, "description", "category", "url");
+            var product = _productService.GetById(id);
             return _mapper.Map<ProductViewModel>(product);
+        }
+
+        [HttpPost]
+        public ProductViewModel Add([FromBody] ProductDto productDto)
+        {
+            var product = _mapper.Map<Product>(productDto);
+
+            product = _productService.Add(product);
+            return _mapper.Map<ProductViewModel>(product);
+        }
+
+        [HttpPut]
+        public ProductViewModel Update([FromBody] ProductDto productDto)
+        {
+            var product = _mapper.Map<Product>(productDto);
+
+            product = _productService.Add(product);
+            return _mapper.Map<ProductViewModel>(product);
+        }
+
+        [HttpDelete("{id}")]
+        public string Delete(long id)
+        {
+            return _productService.Delete(id);
         }
     }
 }

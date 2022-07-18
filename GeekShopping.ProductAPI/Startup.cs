@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using GeekShopping.ProductAPI.Model;
+using GeekShopping.ProductApi.DataBase.Interface;
+using GeekShopping.ProductAPI.Controllers.AutoMapper;
 using GeekShopping.ProductAPI.Model.Context;
-using GeekShopping.ProductAPI.Model.Dto;
-using GeekShopping.ProductAPI.Model.ViewModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -34,19 +33,13 @@ namespace GeekShopping.ProductAPI
                 {
                     c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.ProductAPI", Version = "v1" });
                 });
-
-                var config = new AutoMapper.MapperConfiguration(cfg =>
-                {
-                    cfg.CreateMap<Product, ProductViewModel>();
-                    cfg.CreateMap<ProductDto, Product>();
-                });
     
-                IMapper mapper = config.CreateMapper();
+                IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
                 services.AddSingleton(mapper);
+                services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
                 services.AddScoped<IProductRepository, ProductRepository>();
                 services.AddScoped<IProductService, ProductService>();
-    
             }
 
             public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

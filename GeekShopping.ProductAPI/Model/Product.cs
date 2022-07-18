@@ -38,5 +38,7 @@ namespace GeekShopping.ProductAPI.Model
             this.CategoryName = category_name;
             this.ImageUrl = image_url;
         }
+
+        public Product(){}
     }
 }
