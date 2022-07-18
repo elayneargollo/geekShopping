@@ -16,7 +16,7 @@ namespace GeekShopping.ProductAPI
         public List<Product> GetAll()
         {
             _logger.LogInformation("Method GetAll in ProductService");
-            return _productRepository.GetAll();
+            return _productRepository.GetAll().ToList();
         }
 
         public Product GetById(long id)
@@ -25,10 +25,10 @@ namespace GeekShopping.ProductAPI
             return _productRepository.GetById(id);
         }
 
-        public Product Add(Product product)
+        public async Task<Product> Add(Product product)
         {
             _logger.LogInformation("Method Add in ProductService");
-            return _productRepository.Add(product);
+            return await _productRepository.Add(product);
         }
 
         public string Delete(long id)
@@ -39,10 +39,10 @@ namespace GeekShopping.ProductAPI
             return _productRepository.Exists(id) ? "There was an error deleting" : "Successfully deleted";
         }
 
-        public Product Update(Product product)
+        public async Task<Product> Update(Product product)
         {
             _logger.LogInformation("Method Update in ProductService");
-            return _productRepository.Update(product);
+            return await _productRepository.Update(product);
         }
     }
 }

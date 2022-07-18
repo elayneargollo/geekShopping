@@ -6,8 +6,8 @@ namespace GeekShopping.ProductAPI
     {
         List<Product> GetAll();
         Product GetById(long id);
-        Product Add(Product product);
-        Product Update(Product product);
+        Task<Product> Add(Product product);
+        Task<Product> Update(Product product);
         string Delete(long id);        
     }
 }

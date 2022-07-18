@@ -16,12 +16,12 @@ namespace GeekShopping.ProductAPI
             dataset = _context.Set<T>();
         }
 
-        public T Add(T item)
+        public async Task<T> Add(T item)
         {
             try
             {
                 dataset.Add(item);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return item;
             }
             catch (Exception ex)
@@ -53,7 +53,7 @@ namespace GeekShopping.ProductAPI
             return dataset.Any(b => b.Id.Equals(id));
         }
 
-        public List<T> GetAll()
+        public IEnumerable<T> GetAll()
         {
             return dataset.ToList();
         }
@@ -63,24 +63,26 @@ namespace GeekShopping.ProductAPI
             return dataset.SingleOrDefault(p => p.Id.Equals(id));
         }
 
-        public T Update(T item)
+        public async Task<T> Update(T item)
         {
 
             if (!Exists(item.Id)) return null;
 
             var result = dataset.SingleOrDefault(b => b.Id == item.Id);
+
             if (result != null)
             {
                 try
                 {
                     _context.Entry(result).CurrentValues.SetValues(item);
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
                 }
                 catch (Exception ex)
                 {
                     throw ex;
                 }
             }
+            
             return result;
         }
     }

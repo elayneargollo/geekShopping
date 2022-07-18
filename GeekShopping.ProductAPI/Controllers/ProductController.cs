@@ -43,7 +43,7 @@ namespace GeekShopping.ProductAPI.Controllers
         {
             var product = _mapper.Map<Product>(productDto);
 
-            product = _productService.Add(product);
+            product = _productService.Add(product).Result;
             return _mapper.Map<ProductViewModel>(product);
         }
 
@@ -52,14 +52,14 @@ namespace GeekShopping.ProductAPI.Controllers
         {
             var product = _mapper.Map<Product>(productDto);
 
-            product = _productService.Add(product);
+            product = _productService.Add(product).Result;
             return _mapper.Map<ProductViewModel>(product);
         }
 
         [HttpDelete("{id}")]
-        public string Delete(long id)
+        public IActionResult Delete(long id)
         {
-            return _productService.Delete(id);
+            return Ok(_productService.Delete(id));
         }
     }
 }
