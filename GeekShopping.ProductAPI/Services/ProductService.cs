@@ -28,7 +28,7 @@ namespace GeekShopping.ProductAPI
             }
         }
 
-        public Product GetById(long id)
+        public async Task<Product> GetById(long id)
         {
             _logger.LogInformation("Method GetById in ProductService");
 
@@ -58,14 +58,16 @@ namespace GeekShopping.ProductAPI
             }
         }
 
-        public string Delete(long id)
+        public Task<string> Delete(long id)
         {
             _logger.LogInformation("Method Delete in ProductService");
 
             try
             {
                 _productRepository.Delete(id);
-                return _productRepository.Exists(id) ? "There was an error deleting" : "Successfully deleted";
+                var result = _productRepository.Exists(id) ? "There was an error deleting" : "Successfully deleted";
+
+                return Task.FromResult(result);
             }
             catch(Exception ex)
             {

@@ -32,34 +32,34 @@ namespace GeekShopping.ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public ProductViewModel GetById(long id)
+        public  async Task<ProductViewModel> GetById(long id)
         {
-            var product = _productService.GetById(id);
+            var product = await _productService.GetById(id).ConfigureAwait(false);
             return _mapper.Map<ProductViewModel>(product);
         }
 
         [HttpPost]
-        public ProductViewModel Add([FromBody] ProductDto productDto)
+        public async Task<ProductViewModel> Add([FromBody] ProductDto productDto)
         {
             var product = _mapper.Map<Product>(productDto);
 
-            product = _productService.Add(product).Result;
+            product = await _productService.Add(product).ConfigureAwait(false);
             return _mapper.Map<ProductViewModel>(product);
         }
 
         [HttpPut]
-        public ProductViewModel Update([FromBody] ProductDto productDto)
+        public async Task<ProductViewModel> Update([FromBody] ProductDto productDto)
         {
             var product = _mapper.Map<Product>(productDto);
 
-            product = _productService.Add(product).Result;
+            product = await _productService.Add(product).ConfigureAwait(false);
             return _mapper.Map<ProductViewModel>(product);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(long id)
+        public async Task<string> Delete(long id)
         {
-            return Ok(_productService.Delete(id));
+            return await _productService.Delete(id).ConfigureAwait(false);
         }
     }
 }
