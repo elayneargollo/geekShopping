@@ -13,13 +13,14 @@ namespace GeekShopping.ProductAPI
             _logger = logger;
         }
 
-        public List<Product> GetAll()
+        public async Task<List<Product>> GetAll()
         {
             _logger.LogInformation("Method GetAll in ProductService");
 
             try
             {
-                return _productRepository.GetAll().ToList();
+                var products = await _productRepository.GetAll();
+                return products.ToList();
             }
             catch(Exception ex)
             {

@@ -6,7 +6,7 @@ namespace GeekShopping.ProductApi.DataBase.Interface
     {
         Task<T> Add(T item);
         T GetById(long id);
-        IEnumerable<T> GetAll();
+        Task<IEnumerable<T>> GetAll();
         Task<T> Update(T item);
         void Delete(long id);
         bool Exists(long? id);

@@ -53,7 +53,7 @@ namespace GeekShopping.ProductAPI
             return dataset.Any(b => b.Id.Equals(id));
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
             return dataset.ToList();
         }

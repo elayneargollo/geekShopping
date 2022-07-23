@@ -21,9 +21,9 @@ namespace GeekShopping.ProductAPI.Controllers
         }
 
         [HttpGet]
-        public List<ProductViewModel> GetAll()
+        public async Task<List<ProductViewModel>> GetAll()
         {
-            var products = _productService.GetAll();
+            var products = await _productService.GetAll().ConfigureAwait(false);
 
             List<ProductViewModel> productViewModel = new List<ProductViewModel>();
             products.ForEach(product => productViewModel.Add(_mapper.Map<ProductViewModel>(product)));
