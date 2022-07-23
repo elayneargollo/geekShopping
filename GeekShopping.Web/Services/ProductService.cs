@@ -6,11 +6,11 @@ namespace GeekShopping.Web.Services.IServices
     public class ProductService : IProductService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/controller/product";
+        public const string BasePath = "api/controller";
 
         public ProductService(HttpClient client)
         {
-            _client = client;
+            _client = client ?? throw new ArgumentNullException(nameof(client));
         }
 
         public async Task<List<ProductModel>> GetAll()
