@@ -52,7 +52,7 @@ namespace GeekShopping.ProductAPI.Controllers
         {
             var product = _mapper.Map<Product>(productDto);
 
-            product = await _productService.Add(product).ConfigureAwait(false);
+            product = await _productService.Update(product).ConfigureAwait(false);
             return _mapper.Map<ProductViewModel>(product);
         }
 
